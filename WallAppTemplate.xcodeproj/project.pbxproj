@@ -78,13 +78,8 @@
 		BA0D47C02C4502BD00CF9C1F /* WallAppTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				BA0D48282C45110200CF9C1F /* Sources */,
 				BA0D48272C450EB900CF9C1F /* Info.plist */,
-				BA0D47C12C4502BD00CF9C1F /* WallAppTemplateApp.swift */,
-				BA0D47C32C4502BD00CF9C1F /* ContentView.swift */,
-				BA0D48212C450BF500CF9C1F /* ContainerView.swift */,
-				BA0D47D02C4503A100CF9C1F /* AuthModel.swift */,
-				BA0D48232C450C4400CF9C1F /* MainScreenView.swift */,
-				BA0D481D2C450A3200CF9C1F /* SignUpView.swift */,
 				BA0D47C52C4502BE00CF9C1F /* Assets.xcassets */,
 				BA0D47C72C4502BE00CF9C1F /* WallAppTemplate.entitlements */,
 				BA0D48252C450E1F00CF9C1F /* GoogleService-Info.plist */,
@@ -106,6 +101,19 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA0D48282C45110200CF9C1F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BA0D47C12C4502BD00CF9C1F /* WallAppTemplateApp.swift */,
+				BA0D47C32C4502BD00CF9C1F /* ContentView.swift */,
+				BA0D48212C450BF500CF9C1F /* ContainerView.swift */,
+				BA0D47D02C4503A100CF9C1F /* AuthModel.swift */,
+				BA0D48232C450C4400CF9C1F /* MainScreenView.swift */,
+				BA0D481D2C450A3200CF9C1F /* SignUpView.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
