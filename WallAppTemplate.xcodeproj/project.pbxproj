@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A02C74F2C45DE4D000BC7E4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A02C74E2C45DE4C000BC7E4 /* Post.swift */; };
+		1A02C7512C45DE70000BC7E4 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A02C7502C45DE70000BC7E4 /* PostViewModel.swift */; };
+		1A02C7532C46B4C6000BC7E4 /* listItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A02C7522C46B4C6000BC7E4 /* listItemView.swift */; };
+		1A02C7582C470DD0000BC7E4 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A02C7572C470DD0000BC7E4 /* ButtonStyle.swift */; };
+		1A02C75A2C470F19000BC7E4 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A02C7592C470F19000BC7E4 /* TextFieldStyle.swift */; };
 		BA0D47C22C4502BD00CF9C1F /* WallAppTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D47C12C4502BD00CF9C1F /* WallAppTemplateApp.swift */; };
 		BA0D47C42C4502BD00CF9C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D47C32C4502BD00CF9C1F /* ContentView.swift */; };
 		BA0D47C62C4502BE00CF9C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0D47C52C4502BE00CF9C1F /* Assets.xcassets */; };
@@ -26,6 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A02C74E2C45DE4C000BC7E4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1A02C7502C45DE70000BC7E4 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		1A02C7522C46B4C6000BC7E4 /* listItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listItemView.swift; sourceTree = "<group>"; };
+		1A02C7572C470DD0000BC7E4 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		1A02C7592C470F19000BC7E4 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		BA0D47BE2C4502BD00CF9C1F /* WallAppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallAppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0D47C12C4502BD00CF9C1F /* WallAppTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallAppTemplateApp.swift; sourceTree = "<group>"; };
 		BA0D47C32C4502BD00CF9C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A02C7562C470D74000BC7E4 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1A02C7572C470DD0000BC7E4 /* ButtonStyle.swift */,
+				1A02C7592C470F19000BC7E4 /* TextFieldStyle.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 		BA0D47B52C4502BD00CF9C1F = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +131,10 @@
 				BA0D47D02C4503A100CF9C1F /* AuthModel.swift */,
 				BA0D48232C450C4400CF9C1F /* MainScreenView.swift */,
 				BA0D481D2C450A3200CF9C1F /* SignUpView.swift */,
+				1A02C74E2C45DE4C000BC7E4 /* Post.swift */,
+				1A02C7502C45DE70000BC7E4 /* PostViewModel.swift */,
+				1A02C7522C46B4C6000BC7E4 /* listItemView.swift */,
+				1A02C7562C470D74000BC7E4 /* ViewModifiers */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -200,11 +223,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A02C7512C45DE70000BC7E4 /* PostViewModel.swift in Sources */,
 				BA0D48222C450BF500CF9C1F /* ContainerView.swift in Sources */,
 				BA0D48242C450C4400CF9C1F /* MainScreenView.swift in Sources */,
+				1A02C7582C470DD0000BC7E4 /* ButtonStyle.swift in Sources */,
 				BA0D481E2C450A3200CF9C1F /* SignUpView.swift in Sources */,
 				BA0D47C42C4502BD00CF9C1F /* ContentView.swift in Sources */,
 				BA0D47C22C4502BD00CF9C1F /* WallAppTemplateApp.swift in Sources */,
+				1A02C75A2C470F19000BC7E4 /* TextFieldStyle.swift in Sources */,
+				1A02C7532C46B4C6000BC7E4 /* listItemView.swift in Sources */,
+				1A02C74F2C45DE4D000BC7E4 /* Post.swift in Sources */,
 				BA0D47D12C4503A100CF9C1F /* AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +378,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -389,7 +417,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
